@@ -1,6 +1,7 @@
-import 'package:bloc_tutorial/counter_event.dart';
-import 'package:bloc_tutorial/counter_state.dart';
+import 'package:bloc_tutorial/example_viblo/counter_state.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+
+import 'counter_event.dart';
 
 class CounterBloc extends Bloc<CounterEvent, CounterState> {
   int count = 0;
